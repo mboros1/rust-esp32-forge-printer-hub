@@ -3,7 +3,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - main
+      - trunk
     paths-ignore:
       - "**/README.md"
   pull_request:
